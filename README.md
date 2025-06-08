@@ -11,29 +11,27 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Neos Chat
+
+Neos Chat is a real-time messaging SDK for Flutter applications powered by Socket.IO. It helps you build modern, scalable chat functionality in your Flutter apps, supporting both one-on-one and group messaging features with an easy-to-integrate API.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Real-time messaging with Socket.IO
+- Support for private and group chats
+- Message delivery status (sent, delivered, read)
+- Typing indicators
+- Message history sync
+- Event listeners for messages, typing, and connection updates
+- Extensible and customizable architecture
+- Designed for Android, iOS, and Flutter Web
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### 1. Install the package
 
-## Usage
+Add this to your `pubspec.yaml`:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  neos_chat: ^<latest_version>
