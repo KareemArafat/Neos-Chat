@@ -1,7 +1,8 @@
 name: neos_chat
 description: "A Flutter Chat SDK."
 version: 0.0.1
-homepage:
+repository: https://github.com/KareemArafat/Neos-Chat.git
+#homepage:
 
 environment:
   sdk: ^3.7.2
