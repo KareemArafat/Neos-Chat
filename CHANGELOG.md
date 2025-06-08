@@ -1,4 +1,4 @@
-## [1.0.0] - 2025-06-09
+## [0.0.1] - 2025-06-09
 
 - Initial release of Neos Chat SDK.
 - Real-time messaging support using Socket.IO.
